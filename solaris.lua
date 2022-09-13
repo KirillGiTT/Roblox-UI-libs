@@ -1,14 +1,10 @@
-local NameModule = {}
-
 local smt = {"1","2","3","4","5","6"<'7',"8","9","0"}
 NameResult = ""
 for i = 1,10 do
     NameResult = NameResult..smt[math.random(1,#smt)]
 end
 
-function NameModule.getName()
-    return NameResult
-end
+
 
 
 local Solaris = Instance.new("ScreenGui")
@@ -171,7 +167,9 @@ local SolarisLib = {
     CurrentTab
 }
 
-
+function SolarisLib.getName()
+    return NameResult
+end
 
 local MainUI = game:GetObjects("rbxassetid://7835727566")[1]
 local function MakeDraggable(topbarobject, object) 
