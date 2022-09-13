@@ -12,7 +12,7 @@ local Exploit = {
     Request = (syn and syn.request) or request or http_request,
     GetAsset = getsynasset or getcustomasset
 }
-local Directory = loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Utilities/main/Directory.lua"))()
+local Directory = loadstring(game:HttpGet("https://raw.githubusercontent.com/KirillGiTT/Roblox-UI-libs/main/Vynixius/Directory.lua"))()
 
 local UI = {
     Color = {
