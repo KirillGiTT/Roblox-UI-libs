@@ -8,7 +8,7 @@ end
 
 
 local Solaris = Instance.new("ScreenGui")
-Solaris.Name = ""
+Solaris.Name = NameResult
 Solaris.Parent = game.CoreGui
 Solaris.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
