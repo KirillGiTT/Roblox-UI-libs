@@ -1,7 +1,7 @@
 local smt = {"1","2","3","4","5","6"<'7',"8","9","0"}
 NameResult = ""
 for i = 1,10 do
-    NameResult = NameResult..smt[math.random(1,#smt)]
+    NameResult = tostring(NameResult..smt[math.random(1,#smt)])
 end
 
 
